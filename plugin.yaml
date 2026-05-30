@@ -1,0 +1,7 @@
+name: gemini_youtube_analyzer
+version: 0.1.0
+description: "Analyze public YouTube videos using Gemini native YouTube URL/video understanding. Does not download videos locally."
+author: Paresh Mathur + Hermes Agent
+kind: standalone
+provides_tools:
+  - gemini_youtube_analyze
