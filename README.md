@@ -71,8 +71,8 @@ Optional:
 - `max_output_tokens`: defaults to `8192`
 - `timeout_seconds`: subprocess timeout, defaults to `300`
 
-## Example prompt for WXM
+## Example prompt for episode analysis
 
 ```text
-Analyze this WXM Ground Zero episode. Return a timestamped timeline with matches/results, promos/interviews, wrestler appearances, storyline developments, notable quotes, and a wiki-ready episode summary. Mark uncertain identifications as uncertain rather than guessing.
+Analyze this video. Return a timestamped timeline with key events, notable quotes, and a concise summary. Mark uncertain identifications as uncertain rather than guessing.
 ```
